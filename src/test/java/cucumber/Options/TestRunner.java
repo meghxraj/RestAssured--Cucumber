@@ -10,6 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 		glue = {"stepDefinations"}, //stepDefinations package
 		//tags="@DeletePlace"
 		plugin = "json:target/jsonReports/cumcumber-test-report.json"
+		// adding a commit from git for pull
 		)
 public class TestRunner {
 	
