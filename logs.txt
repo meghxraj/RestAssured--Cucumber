@@ -1,0 +1,162 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": 38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 50,
+    "name": "Megharaj",
+    "phone_number": "9877843210",
+    "address": "Kundapura",
+    "types": [
+        "type1",
+        "type 2"
+    ],
+    "website": "www.googley.com",
+    "language": "Kannada"
+}
+HTTP/1.1 200 OK
+Date: Sun, 29 Aug 2021 09:58:13 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "522145d651d5c36fcddaad41e2d793d7",
+    "scope": "APP",
+    "reference": "7c937a5c0cc45b493a5517e82f3df51a7c937a5c0cc45b493a5517e82f3df51a",
+    "id": "7c937a5c0cc45b493a5517e82f3df51a"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": 38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 50,
+    "name": "RestAssured",
+    "phone_number": "9877843210",
+    "address": "mysore",
+    "types": [
+        "type1",
+        "type 2"
+    ],
+    "website": "www.googley.com",
+    "language": "java"
+}
+HTTP/1.1 200 OK
+Date: Sun, 29 Aug 2021 09:58:14 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "d1011fa04addc4c485ea39014d1ddb06",
+    "scope": "APP",
+    "reference": "dfc89e58cddea4f7646be940362becbcdfc89e58cddea4f7646be940362becbc",
+    "id": "dfc89e58cddea4f7646be940362becbc"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=d1011fa04addc4c485ea39014d1ddb06
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=d1011fa04addc4c485ea39014d1ddb06
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 29 Aug 2021 09:58:14 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 214
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "RestAssured",
+    "phone_number": "9877843210",
+    "address": "mysore",
+    "types": "type1,type 2",
+    "website": "www.googley.com",
+    "language": "java"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "d1011fa04addc4c485ea39014d1ddb06"
+}
+HTTP/1.1 200 OK
+Date: Sun, 29 Aug 2021 09:58:16 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
