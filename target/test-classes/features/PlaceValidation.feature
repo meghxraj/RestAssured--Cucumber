@@ -21,3 +21,5 @@ Scenario: Verify if Delete place API functionality is working
   When user calls the "deletePlaceAPI" with "POST" http request
   Then the API call is success with status code 200
   And "status" in response body is "OK"
+  
+  #test comment for git command
